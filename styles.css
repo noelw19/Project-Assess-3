@@ -2,11 +2,48 @@ body, html {
     height:100%;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffe400;
+    Font-size: 50px;
+    background-color: #272727;
+    height:100px;
+    width:100%;
+    border: 1px solid black;
+}
+
 .parallax {
-    background-image:url("img/Spirit\ Shelf.jpg Shelf.jpg");
+    background-image:url("Img/Spirit\ _shelf.jpg");
     height:100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.main {
+    margin-left:50px;
+    margin-right:50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border:5px solid red;
+}
+
+img {
+    border: 5px solid #ffe400;
+    
+}
+
+.Hist {
+    margin-left:50px;
+    margin-right:50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border:5px solid red;
 }
