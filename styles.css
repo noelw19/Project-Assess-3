@@ -3,6 +3,8 @@ body, html {
 }
 
 body {
+    padding:0px;
+    margin:0px;
     background: url("Img/Cocktail\ Line\ Up.jpg");
     background-attachment: fixed;
     background-repeat: repeat;
@@ -79,6 +81,7 @@ h2 {
     overflow: hidden;
     margin-left:200px;
     margin-right: 200px;
+    margin-bottom:30px;
     Font-size: 20px;
     font-family: sans-serif;
     padding: 15px;
