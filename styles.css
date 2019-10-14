@@ -5,25 +5,14 @@ body, html {
 body {
     padding:0px;
     margin:0px;
-    background: url("Img/Cocktail\ Line\ Up.jpg");
-    background-attachment: fixed;
-    background-repeat: repeat;
+    background-color: #ffffff;
 }
 
 .Nav {
-    background-color:#747474;
+    background-color:#2D283E;
     overflow: hidden;
+    margin-bottom:25px;
 }
-
-.Nav a {
-    float: left;
-    color: #ffe400;
-    text-align: center;
-    padding: 15px 17px;
-    text-decoration: none;
-    font-size:20px;
-}
-
 header {
     font-size:40px;
     display: flex;
@@ -31,13 +20,31 @@ header {
     justify-content: center;
     color:#ffffff;
     font-family: sans-serif;
-    background-color: #272727;
+    background-color: #802BB1;
     height:100px;
     width:100%;
-    
+}
+.Nav a {
+    width:120px;
+    float: left;
+    color: #ffe400;
+    text-align: center;
+    padding: 15px 20px 15px 30px;
+    text-decoration: none;
+    font-size:30px;
 }
 
+.Nav a:hover{
+    color:#802BB1;
+}
+
+
 .parallax {
+    color:#ffffff;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image:url("Img/Spirit\ _shelf.jpg");
     height:100%;
     background-attachment: fixed;
@@ -46,9 +53,13 @@ header {
     background-size: cover;
 }
 
+.parallax h1 {
+    background-color: #802BB1;
+    padding:2rem;
+}
+
 .main {
-    margin-left:50px;
-    margin-right:50px;
+    width: 100%;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -56,8 +67,8 @@ header {
 }
 
 img {
-    border: 5px solid #272727;
-    
+    border: 5px solid #802BB1;
+    margin-top:30px;
 }
 
 .Hist {
@@ -70,7 +81,7 @@ img {
     align-items: center;
     justify-content:center;
     border-bottom:2px solid #ffe400;
-    background-color: #272727;
+    background-color: #802BB1;
 }
 
 h2 {
@@ -81,17 +92,20 @@ h2 {
     overflow: hidden;
     margin-left:200px;
     margin-right: 200px;
-    margin-bottom:30px;
     Font-size: 20px;
     font-family: sans-serif;
     padding: 15px;
-    background-color: #747474;
     text-align: center;
+    background-color: #4C495D;
 
 }
 
 .Hist1 p {
     color:#ffffff;
+}
+
+.histwrap {
+    /*background-color:#2D283E ;*/
 }
 
 
