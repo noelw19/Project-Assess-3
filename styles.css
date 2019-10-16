@@ -9,29 +9,43 @@ body {
 }
 
 .Nav {
+    height:60px;
     background-color:#2D283E;
     overflow: hidden;
-    margin-bottom:25px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 header {
     font-size:40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#ffffff;
+    color:#802BB1;
     font-family: sans-serif;
-    background-color: #802BB1;
+    background-color: #ffffff;
     height:100px;
     width:100%;
+}
+
+header h1::before,
+header h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #802BB1;
+    width: 7rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
 }
 .Nav a {
     width:120px;
     float: left;
     color: #ffe400;
     text-align: center;
-    padding: 15px 20px 15px 30px;
+    padding: 15px 20px 0px 30px;
     text-decoration: none;
     font-size:30px;
+   
 }
 
 .Nav a:hover{
@@ -53,9 +67,18 @@ header {
     background-size: cover;
 }
 
+
+.parallax h1::before,
+.parallax h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #ffffff;
+    width: 7rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
 .parallax h1 {
     background-color: #802BB1;
-    padding:2rem;
 }
 
 .main {
@@ -80,12 +103,18 @@ img {
     display: flex;
     align-items: center;
     justify-content:center;
-    border-bottom:2px solid #ffe400;
-    background-color: #802BB1;
+    font-size: 30px;
+    color:#802BB1;
 }
 
-h2 {
-    color:#ffffff;
+.Hist h2::before,
+.Hist h2::after {
+        display: inline-block;
+        content: "";
+        border-top: .3rem solid #802BB1;
+        width: 7rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
 }
 
 .Hist1 {
@@ -95,17 +124,17 @@ h2 {
     Font-size: 20px;
     font-family: sans-serif;
     padding: 15px;
-    text-align: center;
-    background-color: #4C495D;
+    text-align: left;
+    
 
 }
 
 .Hist1 p {
-    color:#ffffff;
+    color:#585858;
 }
 
-.histwrap {
-    /*background-color:#2D283E ;*/
-}
+/*.histwrap {
+    background-color:#2D283E ;
+}*/
 
 
