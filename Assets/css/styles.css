@@ -52,14 +52,13 @@ header h1::after {
     color:#802BB1;
 }
 
-
 .parallax {
     color:#ffffff;
     font-size:30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url("Img/Spirit\ _shelf.jpg");
+    background-image:url("../img/spiritShelf.jpg");
     height:100%;
     background-attachment: fixed;
     background-position: center;
@@ -79,19 +78,6 @@ header h1::after {
 }
 .parallax h1 {
     background-color: #802BB1;
-}
-
-.main {
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-
-img {
-    border: 5px solid #802BB1;
-    margin-top:30px;
 }
 
 .Hist {
@@ -125,6 +111,7 @@ img {
     font-family: sans-serif;
     padding: 15px;
     text-align: left;
+    padding-bottom:30px;
     
 
 }
@@ -133,8 +120,14 @@ img {
     color:#585858;
 }
 
-/*.histwrap {
-    background-color:#2D283E ;
-}*/
+.flex {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.flex img {
+    margin-bottom:40px;
+}
 
 
