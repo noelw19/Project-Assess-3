@@ -1,65 +1,71 @@
-body, html {
-    height:100%;
+body,
+html {
+    height: 100%;
 }
 
 body {
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     background-color: #ffffff;
 }
 
 .Nav {
-    height:60px;
-    background-color:#2D283E;
-    overflow: hidden;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-}
-header {
-    font-size:40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:#802BB1;
-    font-family: sans-serif;
-    background-color: #ffffff;
-    height:100px;
+    display: inline-block;
     width:100%;
+    height: 60px;
+    background-color: #2D283E;
+    direction: rtl;
+    padding: 15px 40px 0px 15px;
+    
+    
 }
 
-header h1::before,
-header h1::after {
+.Nav1 a {
+    color: #ffe400;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px 40px 0px 15px;
+    
+}
+
+.head {
+    position: relative;
+    bottom: 32px;
+    left:20px;
+    float:left;
+    color: #802BB1;
+    font-family: sans-serif;
+    
+}
+
+.head h1{
+    font-size:45px;   
+}
+
+/*.head h1::before,
+.head h1::after {
     display: inline-block;
     content: "";
     border-top: .3rem solid #802BB1;
     width: 7rem;
     margin: 0 1rem;
     transform: translateY(-1rem);
-}
-.Nav a {
-    width:120px;
-    float: left;
-    color: #ffe400;
-    text-align: center;
-    padding: 15px 20px 0px 30px;
-    text-decoration: none;
-    font-size:30px;
-   
-}
+}*/
 
-.Nav a:hover{
-    color:#802BB1;
+
+
+.Nav a:hover {
+    color: #802BB1;
 }
 
 .parallax {
-    color:#ffffff;
-    font-size:30px;
+    color: #ffffff;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url("../img/spiritShelf.jpg");
-    height:100%;
+    background-image: url("../img/spiritShelf.jpg");
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,58 +82,57 @@ header h1::after {
     margin: 0 1rem;
     transform: translateY(-1rem);
 }
+
 .parallax h1 {
     background-color: #802BB1;
 }
 
 .Hist {
-    margin-left:200px;
+    margin-left: 200px;
     margin-right: 200px;
     Font-size: 20px;
     font-family: sans-serif;
     padding: 15px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     font-size: 30px;
-    color:#802BB1;
+    color: #802BB1;
 }
 
 .Hist h2::before,
 .Hist h2::after {
-        display: inline-block;
-        content: "";
-        border-top: .3rem solid #802BB1;
-        width: 7rem;
-        margin: 0 1rem;
-        transform: translateY(-1rem);
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #802BB1;
+    width: 7rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
 }
 
 .Hist1 {
     overflow: hidden;
-    margin-left:200px;
+    margin-left: 200px;
     margin-right: 200px;
     Font-size: 20px;
     font-family: sans-serif;
     padding: 15px;
     text-align: left;
-    padding-bottom:30px;
-    
+    padding-bottom: 30px;
+
 
 }
 
 .Hist1 p {
-    color:#585858;
+    color: #585858;
 }
 
 .flex {
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex img {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
-
-
