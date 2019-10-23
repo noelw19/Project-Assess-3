@@ -1,0 +1,58 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+nav {
+    display: inline-block;
+    width:100%;
+    height: 60px;
+    background-color: #2D283E;
+    direction: rtl;
+    padding: 15px 40px 0px 15px;  
+}
+
+.Nav1 a {
+    color: #ffe400;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px 40px 0px 15px;
+    
+}
+
+nav a:hover {
+    color: #802BB1;
+}
+
+.head {
+    position: relative;
+    bottom: 32px;
+    left:20px;
+    float:left;
+    color: #802BB1;
+    font-family: sans-serif;
+    
+}
+
+.head h1{
+    font-size:45px;   
+}
+
+.parallax {
+    font-size:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/equip.jpg);
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
