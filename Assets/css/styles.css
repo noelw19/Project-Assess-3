@@ -9,14 +9,13 @@ body {
     background-color: #ffffff;
 }
 
-.Nav {
+nav {
     display: inline-block;
     width:100%;
     height: 60px;
     background-color: #2D283E;
-    direction: rtl;
     padding: 15px 40px 0px 15px;
-    
+    direction:rtl;
     
 }
 
@@ -25,7 +24,6 @@ body {
     text-decoration: none;
     font-size: 30px;
     padding: 15px 40px 0px 15px;
-    
 }
 
 .head {
@@ -54,7 +52,7 @@ body {
 
 
 
-.Nav a:hover {
+nav a:hover {
     color: #802BB1;
 }
 
@@ -111,20 +109,42 @@ body {
 }
 
 .Hist1 {
-    overflow: hidden;
-    margin-left: 200px;
-    margin-right: 200px;
+    width:45%;
     Font-size: 20px;
     font-family: sans-serif;
-    padding: 15px;
+    padding-left:100px;
     text-align: left;
     padding-bottom: 30px;
-
-
+    float:left;
 }
 
 .Hist1 p {
-    color: #585858;
+    width:600px;
+    padding-left:300px;
+    color: #802BB1;
+}
+
+.hist2 {
+    border-left:2px solid #802BB1;
+    width:45%;
+    Font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-bottom:30px;
+    float:left;
+    border-left:2px solid #802BB1;
+}
+
+.hist2 p {
+    width:600px;
+    padding-right:200px;
+    padding-left:100px;
+    color: #802BB1;
+    
+}
+
+.clear {
+    clear: both;
 }
 
 .flex {
