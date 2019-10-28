@@ -10,16 +10,17 @@ body {
 }
 
 nav {
-    display: inline-block;
     width:100%;
     height: 60px;
     background-color: #2D283E;
     padding: 15px 40px 0px 15px;
-    direction:rtl;
     
 }
 
 .Nav1 a {
+    position:relative;
+    Bottom:108px;
+    left:830px;
     color: #ffe400;
     text-decoration: none;
     font-size: 30px;
@@ -30,7 +31,6 @@ nav {
     position: relative;
     bottom: 32px;
     left:20px;
-    float:left;
     color: #802BB1;
     font-family: sans-serif;
     
@@ -38,6 +38,10 @@ nav {
 
 .head h1{
     font-size:45px;   
+}
+
+.clear {
+    clear:both;
 }
 
 /*.head h1::before,
@@ -109,50 +113,78 @@ nav a:hover {
 }
 
 .Hist1 {
+    padding-left:50px;
     width:45%;
     Font-size: 20px;
     font-family: sans-serif;
-    padding-left:100px;
     text-align: left;
     padding-bottom: 30px;
     float:left;
 }
 
 .Hist1 p {
-    width:600px;
-    padding-left:300px;
-    color: #802BB1;
+    color:#ffffff;
 }
 
 .hist2 {
-    border-left:2px solid #802BB1;
     width:45%;
     Font-size: 20px;
     font-family: sans-serif;
     text-align: left;
     padding-bottom:30px;
     float:left;
-    border-left:2px solid #802BB1;
+    
 }
 
 .hist2 p {
     width:600px;
     padding-right:200px;
     padding-left:100px;
-    color: #802BB1;
+    color:#ffffff;
     
+}
+
+.histall {
+    background-color: #802BB1;
+    display:inline-block;
 }
 
 .clear {
     clear: both;
 }
 
-.flex {
+.bwbar {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.flex img {
-    margin-bottom: 40px;
+.bwbar img {
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+footer {
+    background-color: #2D283E;
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    
+    color:#802BB1;
+    padding-left:30px;
+   
+}
+
+footer ul li {
+    display:inline-block;
+    color:#ffe400;
+    font-size: 30px;
+}
+ul strong {
+    color:#802BB1;
 }
