@@ -1,6 +1,8 @@
 body,
 html {
-    height: 100%;
+    height: 100vh;
+    width:100vw;
+    overflow-x:hidden;
 }
 
 body {
@@ -10,54 +12,37 @@ body {
 }
 
 nav {
+    display: inline-block;
     width:100%;
     height: 60px;
     background-color: #2D283E;
-    padding: 15px 40px 0px 15px;
-    
+    direction: rtl;
+    padding: 15px 40px 0px 15px;  
 }
 
 .Nav1 a {
-    position:relative;
-    Bottom:108px;
-    left:830px;
     color: #ffe400;
     text-decoration: none;
     font-size: 30px;
     padding: 15px 40px 0px 15px;
+    
+}
+
+nav a:hover {
+    color: #802BB1;
 }
 
 .head {
     position: relative;
     bottom: 32px;
     left:20px;
+    float:left;
     color: #802BB1;
     font-family: sans-serif;
-    
 }
 
 .head h1{
     font-size:45px;   
-}
-
-.clear {
-    clear:both;
-}
-
-/*.head h1::before,
-.head h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .3rem solid #802BB1;
-    width: 7rem;
-    margin: 0 1rem;
-    transform: translateY(-1rem);
-}*/
-
-
-
-nav a:hover {
-    color: #802BB1;
 }
 
 .parallax {
@@ -72,11 +57,7 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-
-
-
 
 .parallax h1 {
     background-color: #802BB1;

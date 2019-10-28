@@ -1,13 +1,15 @@
 body,
 html {
-    height: 100vh;
-    width:100vw;
+    height: 100%vh;
+    width:100%vw;
+    overflow-x:hidden;
 }
 
 body {
     padding: 0px;
     margin: 0px;
     background-color: #ffffff;
+    
 }
 
 nav {
@@ -65,25 +67,139 @@ nav a:hover {
 
 .equip {
     margin-top:50px;
+    margin-bottom:50px;
     display:flex;
     justify-content: space-around;
+    
 }
 
 .equip1 {
     Width:20%;
-    height: 600px;
-    border:2px solid red;
+    height: auto;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
 }
+
+.equip1 h2 {
+    text-align: center;
+    color:#802BB1;
+}
+
+.equip1 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
+}
+
 .equip2 {
     width:20%;
-    height:600px;
-    border:2px solid red;
+    height:auto;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
+}
+
+.equip2 h2 {
+    color:#802BB1;
+}
+
+.equip2 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
 }
 
 .equip3 {
-    width:20%;
-    height:600px;
-    border:2px solid red;
+    Width:20%;
+    height: auto;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
+}
+
+.equip3 h2 {
+    color: #802BB1;
+}
+
+.equip3 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
+}
+
+.lowequip {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.low1 {
+    Width:20%;
+    height: auto;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
+}
+
+.low1 h2 {
+    color: #802BB1;
+}
+
+.low1 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
+}
+
+.low2 {
+    Width:20%;
+    height: auto;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
+}
+
+.low2 h2 {
+    color: #802BB1;
+}
+
+.low2 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
+}
+
+.low3 {
+    Width:20%;
+    height: auto;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
+}
+
+.low3 h2 {
+    color: #802BB1;
+}
+
+.low3 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
 }
 
 
