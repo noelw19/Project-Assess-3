@@ -75,23 +75,15 @@ nav a:hover {
 }
 
 
-.parallax h1::before,
-.parallax h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .3rem solid #ffffff;
-    width: 7rem;
-    margin: 0 1rem;
-    transform: translateY(-1rem);
-}
+
 
 .parallax h1 {
     background-color: #802BB1;
 }
 
 .Hist {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 20px;
+    background-color: #2D283E;
     Font-size: 20px;
     font-family: sans-serif;
     padding: 15px;
@@ -145,7 +137,7 @@ nav a:hover {
 }
 
 .histall {
-    background-color: #802BB1;
+    background-color: #2D283E;
     display:inline-block;
 }
 
