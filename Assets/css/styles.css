@@ -68,11 +68,13 @@ nav a:hover {
     margin-right:30px;
 }
 
-
+.wrap {
+    width:auto;
+    padding-top:50px;
+}
 
 .Hist {
-    width:67.5%;
-    margin:50px 25% 0px 15.5%;
+    width:70.35%;
     background-color: #2D283E;
     Font-size: 20px;
     font-family: sans-serif;
@@ -82,6 +84,8 @@ nav a:hover {
     justify-content: center;
     font-size: 30px;
     color: #802BB1;
+    position:relative;
+    left:245px;
 }
 
 .Hist h2::before,
@@ -97,7 +101,7 @@ nav a:hover {
 .Hist1 {
     background-color: #2D283E;
     padding-left:50px;
-    width:35%;
+    width:auto;
     Font-size: 20px;
     font-family: sans-serif;
     text-align: left;
@@ -112,10 +116,11 @@ nav a:hover {
 
 .hist2 {
     background-color: #2D283E;
-    width:35%;
+    width:auto;
     Font-size: 20px;
     font-family: sans-serif;
     text-align: left;
+    padding-left:15px;
     padding-bottom:30px;
     float:left;
     
